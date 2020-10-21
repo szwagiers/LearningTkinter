@@ -22,7 +22,7 @@ def myClick():
     myLabel = Label(root, text =hello)
     myLabel.pack()
 
-
+#button() widget . Can contain text or image.
 myButton = Button(root, text= 'submit', command = myClick, )
 
 
@@ -30,5 +30,5 @@ myButton = Button(root, text= 'submit', command = myClick, )
 myButton.pack()
 
 
-
+#infinite loop used to run application, wait for an event to occur and process the event as long as the window is not closed
 root.mainloop()
